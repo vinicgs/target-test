@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="icon" href="/targetIcon.png" type="image/x-icon" />
+
+    <title>Target Sistemas Teste</title>
+</head>
+
+<body>
+    <div id="header">
+        <img src="targetIcon.png" alt="Target Icon" width="100" height="100">
+        <h1>Teste de Target Sistemas</h1>
+    </div>
+
+    <h2>2) Verificar se um número pertence à sequência de Fibonacci</h2>
+
+    <!-- QUESTAO 2 -->
+    <label for="numero">Informe um número:</label>
+    <input type="text" id="numero">
+    <button onclick="verificarFibonacci()">Verificar</button>
+    <p id="resultado2"></p>
+
+    <!-- QUESTAO 3 -->
+    <h2>3) Calcular faturamento </h2>
+    <p><b>
+            Dado um vetor que guarda o valor de faturamento diário de uma distribuidora, faça um programa, na linguagem
+            que
+            desejar, que calcule e retorne:
+            <br> • O menor valor de faturamento ocorrido em um dia do mês;
+            <br>• O maior valor de faturamento ocorrido em um dia do mês;
+            <br>• Número de dias no mês em que o valor de faturamento diário foi superior à média mensal.
+            <hr>
+        </b>
+    </p>
+    <div id="resultado3"> </div>
+
+    <!-- QUESTAO 4 -->
+    <h2>4) Calcular faturamento </h2>
+    <p>
+        <b> Dado o valor de faturamento mensal de uma distribuidora, detalhado por estado:
+
+            <br> SP – R$67.836,43
+            <br>RJ – R$36.678,66
+            <br>MG – R$29.229,88
+            <br>ES – R$27.165,48
+            <br>Outros – R$19.849,53
+
+            Escreva um programa na linguagem que desejar onde calcule o percentual de representação que cada estado teve
+            dentro do valor total mensal da distribuidora.
+
+        </b>
+    </p>
+
+    <div id="resultado4"> </div>
+
+    <!-- QUESTAO 5 -->
+    <h2>5) Inverter caracteres de uma string</h2>
+    <p>
+        <b> Dado uma string, escreva um programa que inverta a ordem dos caracteres da string. </b>
+    </p>
+
+    <input type="text" id="inputString5" placeholder="Digite a string aqui">
+    <button onclick="inverterString()">Inverter</button>
+    <div id="resultado5"></div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
