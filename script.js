@@ -91,7 +91,6 @@ for (const state in faturamentoPercentual) {
 
 /* #########################  QUESTAO 5 ############################ */
 function inverterString() {
-    // Obter o valor do input
     const inputString = document.getElementById("inputString5").value;
 
     let stringInvertida = "";

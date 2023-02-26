@@ -3,6 +3,17 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 5px 0 0 0;
+    background-color: #eeeeee;
+}
+
+#main {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.39);
 }
 
 /*  cabeçalho */
@@ -20,6 +31,7 @@ h1 {
     padding: 10px;
     border-radius: 5px;
     display: flex;
+    justify-content: center
 }
 
 h2 {
@@ -54,6 +66,7 @@ button {
 button:hover {
     background-color: darkred;
 }
+
 
 /*divs de resultado */
 #resultado2,
